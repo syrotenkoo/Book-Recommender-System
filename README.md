@@ -91,11 +91,11 @@ streamlit run app.py
 
 ### Пример работы
 
-<img width="880" height="386" alt="img1" src="https://github.com/user-attachments/assets/16d10c6c-de90-42a3-adcb-3a7e45210393" />
+<img width="572" height="251" alt="img1" src="https://github.com/user-attachments/assets/d41d2c0b-b8ea-491a-b6fc-977cc2b3a4a3" />
 
-<img width="884" height="663" alt="img2" src="https://github.com/user-attachments/assets/6a5d1cf3-29b6-4e26-a589-29b22e67ef99" />
+<img width="575" height="431" alt="img2" src="https://github.com/user-attachments/assets/1b0c2ee2-5ba7-473e-9771-8a6a112b131e" />
 
-<img width="876" height="724" alt="img3" src="https://github.com/user-attachments/assets/7fd5a3b0-17cb-467f-a119-9d83990ee431" />
+<img width="569" height="470" alt="img3" src="https://github.com/user-attachments/assets/f5263f63-5018-4de2-9c71-e302b29246c5" />
 
 ## 📚 Источник данных
 [Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/ra4u12/bookrecommendation?resource=download&select=BX-Books.csv)
