@@ -75,3 +75,33 @@ streamlit run app.py
 ```
 
 Приложение откроется в браузере по адресу `http://localhost:8501`
+
+## 💡 Как использовать веб-приложение
+
+1. Обучение модели (ещё не обучена)
+
+* Нажмите кнопку *"Train Recommender System"*
+* Дождитесь завершения обучения (появится сообщение "Training Completed!")
+
+2. Получение рекомендаций
+
+* Выберите книгу из выпадающего списка
+* Нажмите кнопку *"Show Recommendation"*
+* Система покажет 5 похожих книг с обложками
+
+### Пример работы
+
+<img width="880" height="386" alt="img1" src="https://github.com/user-attachments/assets/16d10c6c-de90-42a3-adcb-3a7e45210393" />
+
+<img width="884" height="663" alt="img2" src="https://github.com/user-attachments/assets/6a5d1cf3-29b6-4e26-a589-29b22e67ef99" />
+
+<img width="876" height="724" alt="img3" src="https://github.com/user-attachments/assets/7fd5a3b0-17cb-467f-a119-9d83990ee431" />
+
+## 📚 Источник данных
+[Book Recommendation Dataset on Kaggle](https://www.kaggle.com/datasets/ra4u12/bookrecommendation?resource=download&select=BX-Books.csv)
+
+Датасет содержит:
+
++ *BX-Books.csv* — информация о книгах (ISBN, название, автор, год, издатель, URL обложки)
++ *BX-Book-Ratings.csv* — оценки пользователей (User-ID, ISBN, Book-Rating)
++ *BX-Users.csv* — демографические данные пользователей (не используется в текущей версии)
