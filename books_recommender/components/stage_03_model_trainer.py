@@ -18,14 +18,14 @@ class ModelTrainer:
     
     def train(self):
         try:
-            #loading pivot data
+            # Loading pivot data
             book_pivot = pickle.load(open(self.model_trainer_config.transformed_data_file_dir,'rb'))
             book_sparse = csr_matrix(book_pivot)
-            #Training model
+            # Training model
             model = NearestNeighbors(algorithm= 'brute')
             model.fit(book_sparse)
 
-            #Saving model object for recommendations
+            # Saving model object for recommendations
             os.makedirs(self.model_trainer_config.trained_model_dir, exist_ok=True)
             file_name = os.path.join(self.model_trainer_config.trained_model_dir,self.model_trainer_config.trained_model_name)
             pickle.dump(model,open(file_name,'wb'))
